@@ -210,7 +210,6 @@
 ./dataimages/Frame2019-05-12-19h24m04s774.jpg 0,4,455,684,0 
 ./dataimages/Frame2019-05-12-19h24m34s312.jpg 0,7,455,680,0 
 ./dataimages/Frame2019-05-12-19h24m53s858.jpg 1,8,440,686,0 
-./dataimages/Frame2019-05-12-19h25m11s523.jpg 1,226,138,384,0 
 ./dataimages/Frame2019-05-12-19h25m40s005.jpg 413,246,465,345,0 994,261,1146,328,0 
 ./dataimages/Frame2019-05-12-19h26m16s220.jpg 562,255,649,289,0 
 ./dataimages/Frame2019-05-12-19h27m29s503.jpg 752,257,840,289,0 
