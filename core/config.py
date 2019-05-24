@@ -43,7 +43,7 @@ __C.TRAIN.DATA_AUG              = True
 __C.TRAIN.LEARN_RATE_INIT       = 1e-4
 __C.TRAIN.LEARN_RATE_END        = 1e-6
 __C.TRAIN.WARMUP_EPOCHS         = 5
-__C.TRAIN.EPOCHS                = 50
+__C.TRAIN.EPOCHS                = 1
 
 
 
