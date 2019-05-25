@@ -19,7 +19,7 @@ parser.add_argument('--set-class-iou', nargs='+', type=str, help="set IoU for a 
 args = parser.parse_args()
 
 # if there are no classes to ignore then replace None by empty list
-if args.ignore is None:
+if args.ignore is []: # None:
   args.ignore = []
 
 specific_iou_flagged = False
