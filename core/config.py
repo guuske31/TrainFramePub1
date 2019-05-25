@@ -55,9 +55,9 @@ __C.TEST.BATCH_SIZE             = 2
 __C.TEST.INPUT_SIZE             = 544
 __C.TEST.DATA_AUG               = False
 __C.TEST.WRITE_IMAGE            = True
-__C.TEST.WRITE_IMAGE_PATH       = "./data/detection/"
+__C.TEST.WRITE_IMAGE_PATH       = "./detection/"
 __C.TEST.WRITE_IMAGE_SHOW_LABEL = False
-__C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=nan.ckpt-25"
+__C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=nan.ckpt-40"
 __C.TEST.SHOW_LABEL             = False
 __C.TEST.SCORE_THRESHOLD        = 0.3
 __C.TEST.IOU_THRESHOLD          = 0.5
