@@ -155,10 +155,10 @@ class Dataset(object):
     def parse_annotation(self, annotation):
 
         line = annotation.split()
-        print(line)
+      #  print(line)
         image_path = line[0]
         image = np.array(cv2.imread(image_path))
-        print(image.shape)
+     #   print(image.shape)
         bboxes = np.array([list(map(int, box.split(','))) for box in line[1:]])
 
         if self.data_aug:
