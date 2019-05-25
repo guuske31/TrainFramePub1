@@ -51,6 +51,8 @@ for var in tf.global_variables():
 
 org_weights_num = len(org_weights_mess)
 cur_weights_num = len(cur_weights_mess)
+print(org_weights_num)
+print(cur_weights_num)
 if cur_weights_num != org_weights_num:
     raise RuntimeError
 
