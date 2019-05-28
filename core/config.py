@@ -57,14 +57,14 @@ __C.TEST.DATA_AUG               = False
 __C.TEST.WRITE_IMAGE            = True
 __C.TEST.WRITE_IMAGE_PATH       = "./detection/"
 __C.TEST.WRITE_IMAGE_SHOW_LABEL = False
-__C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=nan.ckpt-91"
+__C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=1.6982.ckpt-98"
 __C.TEST.SHOW_LABEL             = False
 __C.TEST.SCORE_THRESHOLD        = 0.3
 __C.TEST.IOU_THRESHOLD          = 0.5
 
 # Evaluate options
 __C.EVAL                        = edict()
-__C.EVAL.ANNOT_PATH             = "./data/dataset/testdataset.txt"
+__C.EVAL.ANNOT_PATH             = "./data/dataset/evaldataset.txt"
 
 
 
