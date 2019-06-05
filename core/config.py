@@ -54,7 +54,7 @@ __C.TEST.ANNOT_PATH             = "./data/dataset/testdataset.txt"
 __C.TEST.BATCH_SIZE             = 2
 __C.TEST.INPUT_SIZE             = 544
 __C.TEST.DATA_AUG               = False
-__C.TEST.WRITE_IMAGE            = False
+__C.TEST.WRITE_IMAGE            = True
 __C.TEST.WRITE_IMAGE_PATH       = "./detection/"
 __C.TEST.WRITE_IMAGE_SHOW_LABEL = True
 __C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=2.3132.ckpt-100"
