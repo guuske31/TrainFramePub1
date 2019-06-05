@@ -39,7 +39,7 @@ __C.TRAIN                       = edict()
 __C.TRAIN.ANNOT_PATH            = "./data/dataset/traindataset.txt"
 __C.TRAIN.BATCH_SIZE            = 2
 __C.TRAIN.INPUT_SIZE            = [320, 352, 384, 416, 448, 480, 512, 544, 576, 608]
-__C.TRAIN.DATA_AUG              = False
+__C.TRAIN.DATA_AUG              = True
 __C.TRAIN.LEARN_RATE_INIT       = 1e-4
 __C.TRAIN.LEARN_RATE_END        = 1e-6
 __C.TRAIN.WARMUP_EPOCHS         = 5
@@ -53,7 +53,7 @@ __C.TEST                        = edict()
 __C.TEST.ANNOT_PATH             = "./data/dataset/testdataset.txt"
 __C.TEST.BATCH_SIZE             = 2
 __C.TEST.INPUT_SIZE             = 544
-__C.TEST.DATA_AUG               = False
+__C.TEST.DATA_AUG               = True
 __C.TEST.WRITE_IMAGE            = True
 __C.TEST.WRITE_IMAGE_PATH       = "./detection/"
 __C.TEST.WRITE_IMAGE_SHOW_LABEL = True
@@ -64,7 +64,7 @@ __C.TEST.IOU_THRESHOLD          = 0.5
 
 # Evaluate options
 __C.EVAL                        = edict()
-__C.EVAL.ANNOT_PATH             = "./data/dataset/evaldataset2.txt"
+__C.EVAL.ANNOT_PATH             = "./data/dataset/fp.txt"
 
 
 
