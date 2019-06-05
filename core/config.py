@@ -59,7 +59,7 @@ __C.TEST.WRITE_IMAGE_PATH       = "./detection/"
 __C.TEST.WRITE_IMAGE_SHOW_LABEL = True
 __C.TEST.WEIGHT_FILE            = "./checkpoint/yolov3_test_loss=2.3132.ckpt-100"
 __C.TEST.SHOW_LABEL             = True
-__C.TEST.SCORE_THRESHOLD        = 0.3
+__C.TEST.SCORE_THRESHOLD        = 0.5 #0.3
 __C.TEST.IOU_THRESHOLD          = 0.5
 
 # Evaluate options
