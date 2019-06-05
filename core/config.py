@@ -64,7 +64,7 @@ __C.TEST.IOU_THRESHOLD          = 0.5
 
 # Evaluate options
 __C.EVAL                        = edict()
-__C.EVAL.ANNOT_PATH             = "./data/dataset/evaldataset2.txt"
+__C.EVAL.ANNOT_PATH             = "./data/dataset/testdataset.txt"
 
 
 
